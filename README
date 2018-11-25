@@ -1,0 +1,80 @@
+Alejandro Vollbrechthausen & Michael
+Proj0 Comp 40 
+02/2/2017
+
+###############################################################################
+
++-----------------------------------------------------------------------------+
+|                                   Files                                     |
++-----------------------------------------------------------------------------+
+
+uarray2.c bit2.c sudoku.c unblackedges.c
+
+
+###############################################################################
+
++-----------------------------------------------------------------------------+
+|                                  Purposes                                   |
++-----------------------------------------------------------------------------+
+
+* Part A -> uarray2 *
+the puspose of this function is to create a usable two dimentional array. this 
+will be implimented in other files to allow for creating grids to hold info on
+specific tasks or to simply hold double arrays.
+
+* Part B -> bit2 *
+the purpose of this is to create a double array of bits that can be used to 
+represent greyscale images by creating a grid using ones and zeros. this can 
+then be used to manipulate several images and create them. 
+
+* Part C -> sudoku *
+ the purpose of this file is to create a program that checks to see if a sudoku
+puzzle is solved correctly. that is it is a 9 by 9 grid, max intesnty of 9, min
+of 1 in each row and column no to pixels have the same intensity, and there are
+3 by 3 submaps with no pixels of the same intensity. 
+
+* Part D -> unblackedges *
+the purpose of this file is to create a program that takes in an image then it
+goes through the pixelage of the image finding the black edges and turning them
+into white edges. then returning the same image with the same dimesntions but
+with no black edges.
+
+
+###############################################################################
+
++-----------------------------------------------------------------------------+
+|                                  Compiling                                  |
++-----------------------------------------------------------------------------+
+
+We where provided a make file that compiles all the programs 
+
+
+###############################################################################
+
++-----------------------------------------------------------------------------+
+|                        Data Structures and Algorithms                       |
++-----------------------------------------------------------------------------+
+
+* Part A -> uarray2 * 
+for this program we used a uarray and filled it with pointers to other arrays. 
+this created the ability to create a doubel array of multiple dimentions by 
+changging the width and height and or colomn size or rows. 
+
+* Part B -> bit2 *
+for this program we ussed a uarray and filled it with pointers to bit arrays
+similar to part a this allows for a double array of bits to form that can be 
+manipulated by height and width or row and column size.
+
+* Part C -> sudoku *
+for this program we created a double array that takes int the sudoku and checks
+to see if it is solved. it does this by creating a double array and placing in 
+the then it loops through to see if any row or colunm has the same number then
+sees if any sub grid of three by three doesn not have any of the same numbers
+then it declairs it as solved and exits with 0 and if it doesnt it exits with 1
+
+* Part D -> unblackedges *
+for this program we created a double array of bits that is made of an image 
+imported. them we move thought the outside crid of the image and locating black
+edges and turning them to white but marking how much of the exposed edges are
+black bits as well. after it is done it then returns the image from the double
+bit array to a an image with out black edges.

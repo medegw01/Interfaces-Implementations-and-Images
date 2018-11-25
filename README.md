@@ -37,20 +37,20 @@ In each column, no two pixels have the same intensity.
 If the nine-by-nine graymap is divided into nine three-by-three submaps (like a tic-tac-toe board), in each three-by-three submap, no two pixels have the same intensity.
 Here's an example (which you can also view as an image):
 P2
-9 9
+|9 | 9|
+|--|--|
 portable graymap representing a sudoku solution
-9 
-1 2 3   4 5 6   7 8 9
-4 5 6   7 8 9   1 2 3
-7 8 9   1 2 3   4 5 6
-
-2 3 4   5 6 7   8 9 1 
-5 6 7   8 9 1   2 3 4 
-8 9 1   2 3 4   5 6 7 
-
-3 4 5   6 7 8   9 1 2
-6 7 8   9 1 2   3 4 5
-9 1 2   3 4 5   6 7 8
+$$9$$
+| 123  | 4 5 6 |  7 8 9 |
+|--- | --- | --- |
+| 4 5 6| 7 8 9 |   1 2 3| 
+| 7 8 9|   1 2 3 |  4 5 6| 
+| 2 3 4 |   5 6 7  |  8 9 1| 
+| 5 6 7  |  8 9 1 |  2 3 4| 
+| 8 9 1  | 2 3 4  |  5 6 7| 
+| 3 4 5  |  6 7 8  |  9 1 2$$
+| 6 7 8 |   9 1 2 |   3 4 5| 
+|9 1 2  | 3 4 5  | 6 7 8|
 My solution to this problem takes about 120 lines of C code. There is a significant opportunity for abstraction; a Very Good solution will identify such opportunities and use them to avoid repeating code.
 If sudoku is used in a way that violates its specification, it should terminate with a checked run-time error (any one will do). Read the specification carefully!
 
