@@ -56,8 +56,8 @@ If sudoku is used in a way that violates its specification, it should terminate 
 
 Part D: Using the Bit2 abstraction to remove black edges
 Write the test program unblackedges, which removes black edges from a scanned image. Example:
-![] (bf.PNG )
-![] (af.PNG )
+![alt text](https://github.com/medegw01/Interfaces-Implementations-and-Images/blob/master/bf.PNG  "before")
+![alt text](https://github.com/medegw01/Interfaces-Implementations-and-Images/blob/master/af.PNG "after")
 
 The program unblackedges takes at most one argument:
 
@@ -114,6 +114,7 @@ with no black edges.
 
 #### Compiling                                  
 We where provided a make file that compiles all the programs 
+
 
 #### Data Structures and Algorithms 
 * Part A -> uarray2 
