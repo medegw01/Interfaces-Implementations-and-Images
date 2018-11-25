@@ -115,7 +115,6 @@ with no black edges.
 #### Compiling                                  
 We where provided a make file that compiles all the programs 
 
-
 #### Data Structures and Algorithms 
 * Part A -> uarray2 
 for this program we used a uarray and filled it with pointers to other arrays. 
