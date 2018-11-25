@@ -56,7 +56,9 @@ If sudoku is used in a way that violates its specification, it should terminate 
 
 Part D: Using the Bit2 abstraction to remove black edges
 Write the test program unblackedges, which removes black edges from a scanned image. Example:
-![alt text] (https://ibb.co/LnM55pb "before") 
+![] (bf.PNG )
+![] (af.PNG )
+
 The program unblackedges takes at most one argument:
 
 If an argument is given, it should be the name of a portable bitmap file (in pbm format).
