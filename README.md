@@ -55,9 +55,9 @@ My solution to this problem takes about 120 lines of C code. There is a signific
 If sudoku is used in a way that violates its specification, it should terminate with a checked run-time error (any one will do). Read the specification carefully!
 
 Part D: Using the Bit2 abstraction to remove black edges
-Write the test program unblackedges, which removes black edges from a scanned image. Example:
-![alt text](https://github.com/medegw01/Interfaces-Implementations-and-Images/blob/master/bf.PNG  "before")
-![alt text](https://github.com/medegw01/Interfaces-Implementations-and-Images/blob/master/af.PNG "after")
+Write the test program unblackedges, which removes black edges from a scanned image. Example:<br/>
+![alt text](https://github.com/medegw01/Interfaces-Implementations-and-Images/blob/master/bf.PNG  "before")<br/>
+![alt text](https://github.com/medegw01/Interfaces-Implementations-and-Images/blob/master/af.PNG "after")<br/>
 
 The program unblackedges takes at most one argument:
 
